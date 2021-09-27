@@ -30,7 +30,7 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-  outline: tomato solid 1px;
+  /* outline: tomato solid 1px; */
 }
 
 h1,
