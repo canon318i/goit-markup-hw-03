@@ -30,7 +30,7 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-  /* outline: tomato solid 1px; */
+  outline: tomato solid 1px;
 }
 
 h1,
@@ -47,6 +47,7 @@ p {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 .link {
@@ -193,7 +194,7 @@ img {
 }
 
 .skills-item {
-  width: calc((100% - 3 * var(--flex-margin)) / 4);
+  flex-basis: calc((100% - 3 * var(--flex-margin)) / 4);
 }
 
 .skills-item:not(:last-child) {
@@ -238,11 +239,17 @@ img {
 }
 
 .mission-item {
-  width: calc((100% - 2 * var(--flex-margin)) / 3);
+  flex-basis: calc((100% - 2 * var(--flex-margin)) / 3);
 }
 
 .mission-item:not(:last-child) {
   margin-right: var(--flex-margin);
+}
+
+.mission-img {
+  /* width: 370px;
+  height: 294px; */
+  flex-basis: calc(100% / 3 - var(--flex-margin));
 }
 
 /* Наша команда */
@@ -261,7 +268,7 @@ img {
 }
 
 .team-item {
-  width: calc((100% - 3 * var(--flex-margin)) / 4);
+  flex-basis: calc((100% - 3 * var(--flex-margin)) / 4);
 }
 
 .team-item:not(:last-child) {
@@ -401,6 +408,7 @@ img {
 }
 
 .examples-img {
-  width: 370px;
-  height: 294px;
+  /* width: 370px;
+  height: 294px; */
+  flex-basis: calc(100% / 3 - var(--flex-margin));
 }
