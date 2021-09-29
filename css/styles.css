@@ -160,15 +160,19 @@ img {
 
 /* Герой */
 .hero-section {
+  padding: 200px 0;
   background-color: var(--hero-footer-color);
 }
 
 .hero-container {
-  padding: 200px 250px;
+  /* padding: 200px 250px; */
   text-align: center;
 }
 
 .hero-hdr {
+  width: 696px;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
