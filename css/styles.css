@@ -79,6 +79,14 @@ ul {
   padding-right: 15px;
 }
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
 /* Шапка */
 .header {
   border-bottom: 1px solid var(--logo-strike);
@@ -130,7 +138,8 @@ ul {
 }
 
 .header-nav-link:hover,
-.header-nav-link:focus {
+.header-nav-link:focus,
+.current {
   color: var(--accent-color);
 }
 
@@ -352,7 +361,7 @@ ul {
 .filter-list {
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .filter-button {
