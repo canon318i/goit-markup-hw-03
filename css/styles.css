@@ -3,6 +3,7 @@
   --secondary-header-color: #ffffff;
   --primary-text-color: #757575;
   --secondary-text-color: #ffffff;
+  --main-bkg-color: #ffffff;
   --alt-bkg-color: #f5f4fa;
   --hero-footer-color: #2f303a;
   --accent-color: #2196f3;
@@ -287,6 +288,7 @@ ul {
 
 .team-item-info {
   padding: 30px;
+  background-color: var(--main-bkg-color);
 }
 
 .team-item-header {
