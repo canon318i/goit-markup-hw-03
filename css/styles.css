@@ -79,6 +79,9 @@ img {
 }
 
 /* Шапка */
+.header {
+  border-bottom: 1px solid var(--logo-strike);
+}
 
 .header-container {
   display: flex;
@@ -86,7 +89,6 @@ img {
   justify-content: space-between;
   /* padding-top: 24px;
   padding-bottom: 25px; */
-  border-bottom: 1px solid var(--logo-strike);
 }
 
 .header-logo {
