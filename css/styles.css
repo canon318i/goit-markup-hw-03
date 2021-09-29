@@ -199,7 +199,7 @@ img {
 
 /* Особенности */
 
-.skills-container {
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -245,8 +245,8 @@ img {
   color: var(--primary-header-color);
 }
 
-.mission-container {
-  padding-bottom: 94px;
+.mission-section {
+  padding-top: 0px;
 }
 
 .mission-list {
@@ -268,11 +268,6 @@ img {
 }
 
 /* Наша команда */
-
-.team-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .team-section {
   background-color: var(--alt-bkg-color);
@@ -313,9 +308,6 @@ img {
 /* Подвал */
 .footer {
   background-color: var(--hero-footer-color);
-}
-
-.footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -354,11 +346,6 @@ img {
 }
 
 /* Портфолио */
-
-.portfolio-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .filter-list {
   display: flex;
